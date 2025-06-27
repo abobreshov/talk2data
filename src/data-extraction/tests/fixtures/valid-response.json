@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "pagination": {
+      "offset": 0,
+      "limit": 30,
+      "totalCount": 2
+    }
+  },
+  "data": [
+    {
+      "sku": "000000000000416563",
+      "name": "UHT Semi Skimmed Milk",
+      "brandName": "COWBELLE",
+      "urlSlugText": "cowbelle-uht-semi-skimmed-milk",
+      "ageRestriction": null,
+      "alcohol": null,
+      "discontinued": false,
+      "discontinuedNote": null,
+      "notForSale": true,
+      "notForSaleReason": null,
+      "quantityMin": 1,
+      "quantityMax": 99,
+      "quantityInterval": 1,
+      "quantityDefault": 1,
+      "quantityUnit": "ea",
+      "weightType": "0",
+      "sellingSize": "1 L",
+      "energyClass": null,
+      "onSaleDateDisplay": null,
+      "price": {
+        "amount": 99,
+        "amountRelevant": 99,
+        "amountRelevantDisplay": "£0.99",
+        "bottleDeposit": 0,
+        "bottleDepositDisplay": "£0.00",
+        "comparison": 99,
+        "comparisonDisplay": "£0.99/1 L",
+        "currencyCode": "GBP",
+        "currencySymbol": "£",
+        "perUnit": null,
+        "perUnitDisplay": null,
+        "wasPriceDisplay": null,
+        "additionalInfo": null
+      },
+      "countryExtensions": null,
+      "categories": [
+        {
+          "id": "1588161416978051",
+          "name": "Chilled Food",
+          "urlSlugText": "chilled-food"
+        },
+        {
+          "id": "1588161416978051001",
+          "name": "Milk",
+          "urlSlugText": "chilled-food/milk"
+        }
+      ],
+      "assets": [
+        {
+          "url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/{width}/ac801d8b-1277-411d-9f97-f13a805607a6/{slug}",
+          "maxWidth": 1500,
+          "maxHeight": 1500,
+          "mimeType": "image/*",
+          "assetType": "FR01",
+          "alt": null,
+          "displayName": null
+        }
+      ]
+    },
+    {
+      "sku": "000000000000123456",
+      "name": "Whole Milk",
+      "brandName": "DAIRY FRESH",
+      "urlSlugText": "dairy-fresh-whole-milk",
+      "ageRestriction": null,
+      "alcohol": null,
+      "discontinued": false,
+      "discontinuedNote": null,
+      "notForSale": false,
+      "notForSaleReason": null,
+      "quantityMin": 1,
+      "quantityMax": 99,
+      "quantityInterval": 1,
+      "quantityDefault": 1,
+      "quantityUnit": "ea",
+      "weightType": "0",
+      "sellingSize": "2 L",
+      "energyClass": null,
+      "onSaleDateDisplay": null,
+      "price": {
+        "amount": 230,
+        "amountRelevant": 230,
+        "amountRelevantDisplay": "£2.30",
+        "bottleDeposit": 0,
+        "bottleDepositDisplay": "£0.00",
+        "comparison": 67,
+        "comparisonDisplay": "£0.67/1 L",
+        "currencyCode": "GBP",
+        "currencySymbol": "£",
+        "perUnit": null,
+        "perUnitDisplay": null,
+        "wasPriceDisplay": null,
+        "additionalInfo": null
+      },
+      "countryExtensions": null,
+      "categories": [
+        {
+          "id": "1588161416978051",
+          "name": "Chilled Food",
+          "urlSlugText": "chilled-food"
+        }
+      ],
+      "assets": []
+    }
+  ]
+}

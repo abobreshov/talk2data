@@ -1,0 +1,149 @@
+{
+  "missingPrice": {
+    "meta": {
+      "pagination": {
+        "offset": 0,
+        "limit": 30,
+        "totalCount": 1
+      }
+    },
+    "data": [
+      {
+        "sku": "000000000000416563",
+        "name": "UHT Semi Skimmed Milk",
+        "brandName": "COWBELLE",
+        "urlSlugText": "cowbelle-uht-semi-skimmed-milk",
+        "ageRestriction": null,
+        "alcohol": null,
+        "discontinued": false,
+        "discontinuedNote": null,
+        "notForSale": true,
+        "notForSaleReason": null,
+        "quantityMin": 1,
+        "quantityMax": 99,
+        "quantityInterval": 1,
+        "quantityDefault": 1,
+        "quantityUnit": "ea",
+        "weightType": "0",
+        "sellingSize": "1 L",
+        "energyClass": null,
+        "onSaleDateDisplay": null,
+        "countryExtensions": null,
+        "categories": [],
+        "assets": []
+      }
+    ]
+  },
+  "invalidPriceFormat": {
+    "meta": {
+      "pagination": {
+        "offset": 0,
+        "limit": 30,
+        "totalCount": 1
+      }
+    },
+    "data": [
+      {
+        "sku": "000000000000416563",
+        "name": "UHT Semi Skimmed Milk",
+        "brandName": "COWBELLE",
+        "urlSlugText": "cowbelle-uht-semi-skimmed-milk",
+        "ageRestriction": null,
+        "alcohol": null,
+        "discontinued": false,
+        "discontinuedNote": null,
+        "notForSale": true,
+        "notForSaleReason": null,
+        "quantityMin": 1,
+        "quantityMax": 99,
+        "quantityInterval": 1,
+        "quantityDefault": 1,
+        "quantityUnit": "ea",
+        "weightType": "0",
+        "sellingSize": "1 L",
+        "energyClass": null,
+        "onSaleDateDisplay": null,
+        "price": {
+          "amount": 99,
+          "amountRelevant": 99,
+          "amountRelevantDisplay": "0.99",
+          "bottleDeposit": 0,
+          "bottleDepositDisplay": "£0.00",
+          "comparison": 99,
+          "comparisonDisplay": "£0.99/1 L",
+          "currencyCode": "EUR",
+          "currencySymbol": "€",
+          "perUnit": null,
+          "perUnitDisplay": null,
+          "wasPriceDisplay": null,
+          "additionalInfo": null
+        },
+        "countryExtensions": null,
+        "categories": [],
+        "assets": []
+      }
+    ]
+  },
+  "missingCriticalField": {
+    "meta": {
+      "pagination": {
+        "offset": 0,
+        "limit": 30,
+        "totalCount": 1
+      }
+    },
+    "data": [
+      {
+        "sku": "000000000000416563",
+        "name": "UHT Semi Skimmed Milk",
+        "urlSlugText": "cowbelle-uht-semi-skimmed-milk",
+        "ageRestriction": null,
+        "alcohol": null,
+        "discontinued": false,
+        "discontinuedNote": null,
+        "notForSale": true,
+        "notForSaleReason": null,
+        "quantityMin": 1,
+        "quantityMax": 99,
+        "quantityInterval": 1,
+        "quantityDefault": 1,
+        "quantityUnit": "ea",
+        "weightType": "0",
+        "sellingSize": "1 L",
+        "energyClass": null,
+        "onSaleDateDisplay": null,
+        "price": {
+          "amount": 99,
+          "amountRelevant": 99,
+          "amountRelevantDisplay": "£0.99",
+          "bottleDeposit": 0,
+          "bottleDepositDisplay": "£0.00",
+          "comparison": 99,
+          "comparisonDisplay": "£0.99/1 L",
+          "currencyCode": "GBP",
+          "currencySymbol": "£",
+          "perUnit": null,
+          "perUnitDisplay": null,
+          "wasPriceDisplay": null,
+          "additionalInfo": null
+        },
+        "countryExtensions": null,
+        "categories": [],
+        "assets": []
+      }
+    ]
+  },
+  "invalidMeta": {
+    "data": []
+  },
+  "emptyResponse": {
+    "meta": {
+      "pagination": {
+        "offset": 0,
+        "limit": 30,
+        "totalCount": 0
+      }
+    },
+    "data": []
+  }
+}
