@@ -1,0 +1,15 @@
+# Requirements for order synthesis scripts
+duckdb>=0.9.0
+pandas>=2.0.0
+numpy>=1.20.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+datasetsforecast>=0.0.8
+python-dateutil>=2.8.0
+colorama>=0.4.6
+pyarrow>=14.0.0  # For Parquet file support
+
+# Installation:
+# ~/miniconda3/envs/grocery_poc/bin/python -m pip install -r requirements.txt
+EOF < /dev/null

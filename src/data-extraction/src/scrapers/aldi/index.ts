@@ -83,13 +83,29 @@ export class AldiScraper {
   }
 
   private transformProduct(product: Product): ProductCsv {
+    // Extract category hierarchy
+    let category = '';
+    let subcategory = '';
+    
+    if (product.categories && product.categories.length > 0) {
+      // The first category is usually the main category
+      category = product.categories[0]?.name || '';
+      
+      // If there's a second category, it's typically the subcategory
+      if (product.categories.length > 1) {
+        subcategory = product.categories[1]?.name || '';
+      }
+    }
+    
     return {
       sku: product.sku,
       name: product.name,
       brandName: product.brandName,
       sellingSize: product.sellingSize,
       currency: product.price.currencySymbol,
-      price: product.price.amount
+      price: product.price.amount,
+      category: category,
+      subcategory: subcategory
     };
   }
 

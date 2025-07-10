@@ -1,0 +1,20 @@
+# Requirements for product-SKU synthesis notebook
+duckdb>=0.9.0
+pandas>=2.0.0
+jupyter>=1.0.0
+notebook>=7.0.0
+pypika>=0.48.0
+
+# Installation instructions:
+# This project uses Miniconda environment: ~/miniconda3/envs/grocery_poc
+#
+# 1. Install dependencies:
+#    ~/miniconda3/envs/grocery_poc/bin/python -m pip install -r requirements.txt
+#
+# 2. Run Jupyter notebook:
+#    ~/miniconda3/envs/grocery_poc/bin/jupyter notebook products-skus-synthesis.ipynb
+#
+# Alternative: If Miniconda is activated:
+#    conda activate grocery_poc
+#    pip install -r requirements.txt
+#    jupyter notebook products-skus-synthesis.ipynb

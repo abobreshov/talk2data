@@ -79,6 +79,8 @@ export interface ProductCsv {
   sellingSize: string;
   currency: string;
   price: number;
+  category: string;
+  subcategory: string;
 }
 
 export interface AldiConfig {

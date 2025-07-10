@@ -136,3 +136,4 @@ dist
 
 .idea/
 */.yarn/
+/src/data-extraction/.claude/

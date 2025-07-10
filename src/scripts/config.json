@@ -1,0 +1,7 @@
+{
+  "products_db": "/home/abobreshov/work/dataart/talk2data/grocery_poc/src/data/products.duckdb",
+  "orders_db": "/home/abobreshov/work/dataart/talk2data/grocery_poc/src/data/orders.duckdb",
+  "customers_csv": "/home/abobreshov/work/dataart/talk2data/grocery_poc/src/data/customers.csv",
+  "data_dir": "/home/abobreshov/work/dataart/talk2data/grocery_poc/src/data",
+  "setup_timestamp": "2025-07-10T21:44:57.093129"
+}
