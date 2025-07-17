@@ -1,9 +1,18 @@
-# Requirements for product-SKU synthesis notebook
+# Requirements for notebooks (product-SKU synthesis and TiREx demo)
 duckdb>=0.9.0
 pandas>=2.0.0
 jupyter>=1.0.0
 notebook>=7.0.0
 pypika>=0.48.0
+
+# For TiREx demand forecasting demo
+torch>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+
+# TiREx installation (run separately):
+# pip install git+https://github.com/NX-AI/tirex.git
 
 # Installation instructions:
 # This project uses Miniconda environment: ~/miniconda3/envs/grocery_poc

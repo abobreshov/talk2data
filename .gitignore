@@ -137,3 +137,5 @@ dist
 .idea/
 */.yarn/
 /src/data-extraction/.claude/
+/src/notebooks/data/m5/
+/src/scripts/backup/
